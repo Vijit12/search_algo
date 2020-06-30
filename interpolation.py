@@ -1,10 +1,10 @@
 
 # If x is present in arr[0..n-1], then returns 
 # index of it, else returns -1 
-def interpolationSearch(arr, n, x): 
+def interpolationSearch(arr, size, x): 
     # Find indexs of two corners 
     low = 0
-    high = (n - 1) 
+    high = (size - 1) 
    
     # Since array is sorted, an element present 
     # in array must be in range defined by corner 
